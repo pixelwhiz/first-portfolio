@@ -1,0 +1,17 @@
+.services {
+    background-color: rebeccapurple;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: 5px 5px 10px 10px rebeccapurple;
+}
+
+.services h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+@media (max-width: 992px){
+    .services {
+        margin-right: 0.5rem;
+    }
+}

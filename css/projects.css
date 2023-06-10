@@ -1,0 +1,17 @@
+.projects {
+    background-color: rebeccapurple;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    box-shadow: 5px 5px 10px 10px rebeccapurple;
+}
+
+.projects h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+@media (max-width: 992px){
+    .projects {
+        margin-right: 0.5rem;
+    }
+}

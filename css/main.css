@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,300&display=swap');
+
+.main {
+    background-color: transparent;
+}
+
+.main h3 {
+    font-weight: 400;
+}
+
+.main h5 {
+    font-weight: 400;
+    
+}
+
+
+.main h3 span {
+    color: orange;
+    font-weight: bold;
+    font-size: 1.8rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.main .about {
+    margin-top: 2rem;
+}

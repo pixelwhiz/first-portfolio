@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,300&display=swap');
+
+.github {
+    height: 2rem;
+    width: 2rem;
+    margin-left: 3rem;
+}
+
+.github a {
+
+}
+
+
+.header {
+    background-color: transparent;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.logo {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 3rem;
+}
+
+#menu-icon {
+  color-scheme: red;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar ul {
+    margin-right: 3rem;
+}
+
+.logo::after {
+    color: white;
+}
+.logo:hover {
+    color: white;
+}
+.logo:focus {
+    color: white;
+}
+.navbar ul li a:focus {
+    color: white;
+}
+
+.navbar ul {
+    gap: 1rem;
+}
+
+.navbar ul li a {
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.navbar ul li a:hover {
+    color: white;
+}
+
+.navbar-toggler {
+    color: transparent;
+    border: none;
+}
+
+.navbar-toggler img {
+
+}
+
+
+@media (max-width: 992px){
+    .logo {
+        margin-left: 0rem;
+        font-size: 1.5rem;
+    }
+
+    .navbar ul {
+        margin-right: 0rem;
+    }
+
+    .github {
+        margin-left: 0rem;
+    }
+
+}
